@@ -69,7 +69,7 @@ namespace Pokedex
             Console.Clear();
             Console.WriteLine("Pokedex has been activated!\n");
             Console.WriteLine("------------------------------------------------------------------------------------------------");
-            foreach (var pokemon in pokemon)
+            foreach (Pokemon pokemon in pokemon)
             {
                Console.WriteLine($"Name: {pokemon.Name} ");
                Console.WriteLine($"Type: {pokemon.Type}* Gender: {pokemon.Gender}* Health: {pokemon.Health}* Level: {pokemon.Level}* ");
@@ -105,7 +105,7 @@ namespace Pokedex
             Console.WriteLine("Added a new Pokemon!\n");
 
             Console.WriteLine("------------------------------------------------------------------------------------------------");
-            foreach (var pokemon in pokemon)
+            foreach (Pokemon pokemon in pokemon)
             {
                 Console.WriteLine($"Name: {pokemon.Name} ");
                 Console.WriteLine($"Type: {pokemon.Type}* Gender: {pokemon.Gender}* Health: {pokemon.Health}* Level: {pokemon.Level}* ");
